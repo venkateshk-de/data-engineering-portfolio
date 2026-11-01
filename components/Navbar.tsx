@@ -7,7 +7,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <header className="border-b border-slate-800 bg-slate-950">
+    <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/95 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-5 lg:px-12">
 
         {/* Logo */}
